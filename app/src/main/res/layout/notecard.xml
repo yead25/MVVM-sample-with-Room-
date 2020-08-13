@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    >
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="30dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"/>
+          <TextView
+              android:id="@+id/date"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="16 July 2020"
+              android:fontFamily="casual"
+              android:textColor="@android:color/darker_gray"
+              android:textSize="15dp"/>
+        <!--<ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="This is the discription of the Note"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textColor="@android:color/black"
+                />
+        </ScrollView>-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
